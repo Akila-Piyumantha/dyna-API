@@ -6,12 +6,7 @@ const workoutRoutes = require('./routes/workouts')
 const userRoutes = require('./routes/auth')
 
 
-// Example for an Express.js backend
-const cors = require('cors');
-app.use(cors({
-  origin: 'https://airdyna-client2-git-master-akila-piyumanthas-projects.vercel.app/', // or your frontend URL
-  credentials: true,
-}));
+
 
 
 //middleware
