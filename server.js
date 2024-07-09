@@ -5,6 +5,15 @@ const mongoose = require('mongoose')
 const workoutRoutes = require('./routes/workouts')
 const userRoutes = require('./routes/auth')
 
+
+// Example for an Express.js backend
+const cors = require('cors');
+app.use(cors({
+  origin: 'http://localhost:3000', // or your frontend URL
+  credentials: true,
+}));
+
+
 //middleware
 app.use((req,res,next)=>{
     console.log(req.path,req.method)
