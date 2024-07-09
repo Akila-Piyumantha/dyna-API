@@ -9,7 +9,7 @@ const userRoutes = require('./routes/auth')
 // Example for an Express.js backend
 const cors = require('cors');
 app.use(cors({
-  origin: 'http://localhost:3000', // or your frontend URL
+  origin: 'https://airdyna-client2-git-master-akila-piyumanthas-projects.vercel.app/', // or your frontend URL
   credentials: true,
 }));
 
